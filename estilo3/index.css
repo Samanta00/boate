@@ -1,0 +1,35 @@
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+.small{
+    font-size:13px;
+}
+.post_content{
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px #999;
+    border-radius: 1px;
+    padding: 10px;
+}
+.post_content h4{
+    font-weight: normal;
+}
+.post_content img{
+    width: 150px;
+    height: 120px;
+
+}
+.post_content .button{
+    text-align: right;
+    padding: 10px;
+
+}
+.post_content .button .btn-informacao{
+    border-radius: 0px;
+    padding: 5px 25px 5px 25px;
+
+
+}
+.caixa_comentario{
+    background-color: rgba(243, 243, 243, 0.452);
+}
