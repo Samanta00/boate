@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    overflow:overflow-x;
+}
+main{
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+
+}
+.imagem_principal{
+width: 100%;
+}
+.galery {
+    overflow: hidden;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.main { display: flex; align-items: center; justify-content: center; }
+
+#items-wrapper{
+    width: 100vw;
+}
+img{
+    object-fit: cover;
+ 
+}
+.item{
+    flex: none;
+    width: 50%;
+    height: 400px;
+    scroll-snap-align: start;
+}
+
+#items{
+    display:flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+body{
+    background-color: rgb(185, 241, 248);
+    font-family: 'trebuchet ms' ,'lucida sans unicode','lucida grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+   place-items: center;
+   height: 100vh;
+
+
+}
+a{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(201, 12, 138);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+table{
+    background-color: rgba(34, 26, 26, 0.849);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+ul{
+    border:1 solid #000000;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+ul li{
+    border: 1px solid red;
+    float: left;
+}
+ul li a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    font-family: 'arial', 'helvetica', 'sans-serif';
+    color: rgb(235, 51, 112);
+    margin: 1px;
+}
+ul li a:hover{
+    background: rgb(218, 67, 29);
+    text-decoration: none;
+    font-family: 'arial', 'helvetica', 'sans-serif';
+    color:rgb(0, 0, 0)
+}
+#selecionar_eventos{
+    margin-right: 11%;
+}
+
+.estilo_foto{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+
+.comentario{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+#user_name2{
+margin:2%
+}
+#user_address2{
+    margin: 2%;
+}
+textarea:invalid{
+    border: 2px solid red;
+}
+textarea{
+    resize: none; 
+  
+}
+
+form{
+    width: 500px;
+    
+}
+.titulo{
+   
+    font-size: 180%;
+    text-align: center;
+    color: #fff;
+    
+}
+.texto{
+    color: #fff;
+    text-align:center;
+}
+.atencao{
+    text-align: center;
+    color: red;
+}
